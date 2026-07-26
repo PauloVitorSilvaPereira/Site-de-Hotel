@@ -1,6 +1,3 @@
-<img width="1366" height="727" alt="image" src="https://github.com/user-attachments/assets/d4228023-42cb-423b-800b-83ddfa588757" /># Sen Finanças
-
-
 ![Badge Status](https://img.shields.io/badge/Status-Em_Desenvolvimento-green)
 
 
