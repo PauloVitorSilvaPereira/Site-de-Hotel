@@ -1,4 +1,4 @@
-# Sen Finanças
+<img width="1366" height="727" alt="image" src="https://github.com/user-attachments/assets/d4228023-42cb-423b-800b-83ddfa588757" /># Sen Finanças
 
 
 ![Badge Status](https://img.shields.io/badge/Status-Em_Desenvolvimento-green)
@@ -29,4 +29,6 @@ Um hotel ficticio solicitou a criação de um site para a apresentação dos rec
 # 📼​: Demonstração
 
 
-![Demonstração do Projeto](assets/gifDemonstracao.gif)
+![Demonstração do Projeto](assets/demonstracaoHotel1.png)
+![Demonstração do Projeto](assets/demonstracaoHotel2.png)
+![Demonstração do Projeto](assets/demonstracaoHotel3.png)
