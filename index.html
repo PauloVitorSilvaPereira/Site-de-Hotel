@@ -1,0 +1,142 @@
+<html> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <title>Hotel</title> 
+        <link href="bootstrap/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="icon" type="image/png" href="assets/logo.png"> 
+    </head> 
+    <body> 
+        <header class="container-fluid d-flex align-items-center py-3" style="background-color: #800020;">
+            <a href="index.html">
+                <img src="assets/logo.png" 
+                    class="float-start img-fluid" 
+                    style="max-width: 60px;" 
+                    alt="Logo do Hotel" />
+            </a>
+        </header>
+        <main class="mt-5">
+            <div class="container"> 
+                <div class="row"> 
+                    <div class="col-12 col-md-4 hotelApresentacao p-4"> 
+                        <h2>Sinta o conforto acolhedor de nossas hospedagens</h2>
+                        <p>Hospede-se nos nossos hotéis com quarto a partir de R$ 100,00.</p>
+                         <button type="button" class="btn btnHotel mt-5" id="botao">Saiba Mais</button> 
+                    </div> 
+                    <div class="col-12 col-md-8 mt-2"> 
+                        <img src="assets/hotel.jpg" 
+                        class="img-fluid" 
+                        alt="Imagem do exterior do hotel"> 
+                    </div> 
+                </div> 
+            </div>
+            <div class="container mt-5"> 
+                <div class="row"> 
+                    <div class="col-12 col-md-12 text-center informacoes"> 
+                        <h1>POR QUE SE HOSPEDAR EM NOSSOS HOTÉIS?</h1> 
+                    </div> 
+                    <div class="col-12 col-md-6 d-flex align-items-center"> 
+                        <img src="assets/cafe.png" 
+                        class="img-fluid icone m-3" 
+                        alt="Ícone de café"> 
+                        <div class="m-3">
+                            <h3>Delicioso café da manhã</h3>
+                            <p>Incluso em todas as diárias</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 d-flex align-items-center"> 
+                        <img src="assets/localizacao.png" 
+                        class="img-fluid icone m-3" 
+                        alt="ícone de localização">
+                        <div class="m-3">
+                            <h3>Fácil acesso</h3>
+                            <p>Perto dos principais pontos turísticos</p>
+                        </div> 
+                    </div>  
+                </div> 
+            </div>
+            <div class="container"> 
+                <div class="row hotelApresentacao mt-4"> 
+                    <div class="col-12 col-md-12 my-5 text-center"> 
+                        <h2>NOSSOS QUARTOS</h2>
+                    </div> 
+                    <div class="col-12 col-md-4"> 
+                        <img src="assets/suiteSolteiro.jpg" 
+                        class="img-fluid" 
+                        alt="Imagem da suite de solteiro">
+                        <h4 class="text-center mt-3">Suíte Solteiro</h4> 
+                    </div>
+                    <div class="col-12 col-md-4"> 
+                        <img src="assets/suiteCasal.jpg" 
+                        class="img-fluid" 
+                        alt="Imagem da suite de casal">
+                        <h4 class="text-center mt-3">Suíte Casal</h4> 
+                    </div>
+                    <div class="col-12 col-md-4"> 
+                        <img src="assets/suiteMaster.jpg" 
+                        class="img-fluid" 
+                        alt="Imagem da suite master">
+                        <h4 class="text-center mt-3 my-4">Suíte Master</h4>
+                    </div> 
+                </div> 
+            </div>
+        </main>
+        <footer class="container-fluid d-flex align-items-center mt-5" style="background-color: #800020;">
+            <div class="container"> 
+                <div class="row mt-4" style="color: #C1A15D;"> 
+                    <div class="col-12 col-md-4 my-5"> 
+                        <h2>FAÇA SUA RESERVA</h2>
+                        <p class="mt-4">Entre em contato conosco informando as datas desejadas. Lhe retornaremos informando a disponibilidade e repassando detalhes da reserva.</p>
+                    </div> 
+                    <div class="col-12 col-md-8"> 
+                        <form method="post" action="#"> 
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="mb-3">
+                                        <label for="nome" class="form-label">Nome:</label>
+                                        <input type="text" class="form-control" id="nome">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="dataEntrada" class="form-label">Data de Entrada:</label>
+                                        <input type="date" class="form-control" id="dataEntrada">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="observacoes" class="form-label">Observações:</label>
+                                        <textarea class="form-control" id="observacoes" rows="4"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">E-mail:</label>
+                                        <input type="email" class="form-control" id="email">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="dataSaida" class="form-label">Data de Saída:</label>
+                                        <input type="date" class="form-control" id="dataSaida">
+                                    </div>
+                            <div class="row">
+                                <div class="col-6 mb-3">
+                                    <label for="adultos" class="form-label">Adultos:</label>
+                                    <input type="number" class="form-control" id="adultos">
+                                </div>
+                                <div class="col-6 mb-3">
+                                    <label for="criancas" class="form-label">Crianças:</label>
+                                    <input type="number" class="form-control" id="criancas">
+                                </div>
+                                </div>
+                                    <div class="d-grid mt-2">
+                                        <button type="submit" class="btn btnHotel">Enviar</button>
+                                    </div>
+                                </div>
+                            </div> 
+                        </form> 
+                    </div> 
+                </div> 
+            </div>
+        </footer>
+        <script src="bootstrap/bootsatrap/js/bootstrap.min.js"></script>
+        <script src="jquery.js"></script> 
+        <script src="script.js"></script>
+    </body> 
+</html> 

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hotelApresentacao {
+    background-color: #800020;
+    border: 1px solid #C1A15D;
+    border-radius: 20px;
+    color: #C1A15D;
+}
+
+.btnHotel {
+    background-color: #C1A15D;
+    color: #800020;
+    border: 1px solid #C1A15D;
+    transition: .3s;
+}
+
+.btnHotel:hover{
+    background-color: #9b7d42;
+    border-color: #9b7d42;
+    color: #fff;
+}
+
+.icone {
+    max-width: 60px;
+}
+
+.informacoes{
+    color: #C1A15D;
+}
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #C1A15D #f1f1f1; /* cor da alça / cor do trilho */
+}
