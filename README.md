@@ -1,4 +1,6 @@
-![Badge Status](https://img.shields.io/badge/Status-Em_Desenvolvimento-green)
+#Site de Hotel
+
+![Badge Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-blue)
 
 
 # 💻: Tecnologias
