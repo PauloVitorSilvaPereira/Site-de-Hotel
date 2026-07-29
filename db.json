@@ -1,0 +1,85 @@
+{
+  "reservas": [
+    {
+      "nome": "Paulo",
+      "dataEntrada": "01/01/2026",
+      "observacoes": "Quero uma suite master",
+      "email": "pvitorpereira24@gmail.com",
+      "dataSaida": "05/01/2026",
+      "adultos": "1",
+      "criancas": "0",
+      "id": "0"
+    },
+    {
+      "nome": "Paulo Vitor Silva Pereira",
+      "dataEntrada": "2026-08-07",
+      "observacoes": "Quero uma suíte de casal",
+      "email": "pvitorpereira24@gmail.com",
+      "dataSaida": "2026-08-08",
+      "adultos": "2",
+      "criancas": "0",
+      "id": "FP0g_ICZV5c"
+    },
+    {
+      "nome": "",
+      "dataEntrada": "",
+      "observacoes": "",
+      "email": "",
+      "dataSaida": "",
+      "adultos": "",
+      "criancas": "",
+      "id": "GlswoerKKJI"
+    },
+    {
+      "nome": "",
+      "dataEntrada": "",
+      "observacoes": "",
+      "email": "",
+      "dataSaida": "",
+      "adultos": "",
+      "criancas": "",
+      "id": "eXnyFVZ2_g0"
+    },
+    {
+      "nome": "",
+      "dataEntrada": "",
+      "observacoes": "",
+      "email": "",
+      "dataSaida": "",
+      "adultos": "",
+      "criancas": "",
+      "id": "hwYyQ2mlLCw"
+    },
+    {
+      "nome": "",
+      "dataEntrada": "",
+      "observacoes": "",
+      "email": "",
+      "dataSaida": "",
+      "adultos": "",
+      "criancas": "",
+      "id": "XHKMlWaqUkQ"
+    },
+    {
+      "nome": "Paulo Vitor Silva Pereira",
+      "dataEntrada": "2026-07-31",
+      "observacoes": "aaaaaaaaaaaaaaaa",
+      "email": "pvitorpereira24@gmail.com",
+      "dataSaida": "2026-08-04",
+      "adultos": "2",
+      "criancas": "1",
+      "id": "p2_dbAV_PUQ"
+    },
+    {
+      "nome": "terezinha ",
+      "dataEntrada": "2026-07-30",
+      "observacoes": "aaaaaa",
+      "email": "pvitorpereira24@gmail.com",
+      "dataSaida": "2026-08-07",
+      "adultos": "2",
+      "criancas": "1",
+      "id": "du_is0QTBik"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

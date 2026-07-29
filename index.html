@@ -90,39 +90,39 @@
                         <p class="mt-4">Entre em contato conosco informando as datas desejadas. Lhe retornaremos informando a disponibilidade e repassando detalhes da reserva.</p>
                     </div> 
                     <div class="col-12 col-md-8"> 
-                        <form method="post" action="#"> 
+                        <form method="post" action="" id="form"> 
                             <div class="row">
                                 <div class="col-12 col-md-6">
                                     <div class="mb-3">
                                         <label for="nome" class="form-label">Nome:</label>
-                                        <input type="text" class="form-control" id="nome">
+                                        <input type="text" class="form-control" name="nome" id="nome">
                                     </div>
                                     <div class="mb-3">
                                         <label for="dataEntrada" class="form-label">Data de Entrada:</label>
-                                        <input type="date" class="form-control" id="dataEntrada">
+                                        <input type="date" class="form-control" name="dataEntrada" id="dataEntrada">
                                     </div>
                                     <div class="mb-3">
                                         <label for="observacoes" class="form-label">Observações:</label>
-                                        <textarea class="form-control" id="observacoes" rows="4"></textarea>
+                                        <textarea class="form-control" name="observacoes" id="observacoes" rows="4"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-6">
                                     <div class="mb-3">
                                         <label for="email" class="form-label">E-mail:</label>
-                                        <input type="email" class="form-control" id="email">
+                                        <input type="text" class="form-control" name="email" id="email">
                                     </div>
                                     <div class="mb-3">
                                         <label for="dataSaida" class="form-label">Data de Saída:</label>
-                                        <input type="date" class="form-control" id="dataSaida">
+                                        <input type="date" class="form-control" name="dataSaida" id="dataSaida">
                                     </div>
                             <div class="row">
                                 <div class="col-6 mb-3">
                                     <label for="adultos" class="form-label">Adultos:</label>
-                                    <input type="number" class="form-control" id="adultos">
+                                    <input type="text" class="form-control" name="adultos" id="adultos">
                                 </div>
                                 <div class="col-6 mb-3">
                                     <label for="criancas" class="form-label">Crianças:</label>
-                                    <input type="number" class="form-control" id="criancas">
+                                    <input type="text" class="form-control" name="criancas" id="criancas">
                                 </div>
                                 </div>
                                     <div class="d-grid mt-2">
@@ -136,7 +136,9 @@
             </div>
         </footer>
         <script src="bootstrap/bootsatrap/js/bootstrap.min.js"></script>
-        <script src="jquery.js"></script> 
-        <script src="script.js"></script>
+        <script src="scripts/jquery.js"></script>
+        <script src="scripts/jquery.mask.js"></script>
+        <script src="scripts/jquery.validate.js"></script> 
+        <script src="scripts/script.js"></script>
     </body> 
 </html> 
